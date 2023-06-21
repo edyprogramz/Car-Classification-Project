@@ -101,7 +101,8 @@ STEP 5:
     ```
 - **n_neighbours=7** , means a maximum of 7 neighbours is allowed
 
-- You can use more or less eg: **n_neighbours=5**, **n_neighbours=10** etc..
+- You can use more or less eg: **n_neighbours=5**, **n_neighbours=11** etc..
+- only odd numbers are needed.
 
     ```python 
     accuracy = model.score(x_test, y_test)
